@@ -11,10 +11,11 @@ bool isArmstrong(int num) {
     int sum = 0;
     int ld=0;
     while(n > 0){
-
+        int po=1;
         ld = n % 10;
-
-        sum = sum + pow(ld, k); 
+        for(int i=0;i<k;i++)
+        po *= ld;
+        sum = sum + po; 
 
         n = n / 10;
     }
