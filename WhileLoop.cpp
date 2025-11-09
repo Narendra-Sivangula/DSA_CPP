@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// while loop
 int main(){
     int n;
     cin>>n;
