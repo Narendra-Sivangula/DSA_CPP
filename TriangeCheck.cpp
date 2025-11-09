@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// Triangle Program
 int main(){
     int sidea,sideb,sidec;
     cin>>sidea>>sideb>>sidec;
